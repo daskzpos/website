@@ -1,8 +1,8 @@
-<?php
+<p?php
 session_start();
-require ('conn database.php');
-
+require('conn database.php');
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,15 +39,7 @@ require ('conn database.php');
 </h2>
 
 <?php
-$servername = "fullstack";
-$username = "root";
-$password = "password";
-$dbname = "MyDB";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
 
 ?>
-
 </body>
 </html>
