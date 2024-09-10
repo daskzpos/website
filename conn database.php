@@ -2,7 +2,7 @@
 $servername = "mysql";
 $username = "root";
 $password = "password";
-$dbname = "MyDB";
+$dbname = "FullStack";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
