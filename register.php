@@ -40,12 +40,8 @@ require('conn database.php');
 
 <?php
 
- if (!isset($_POST['username'], $_POST['password'], $_POST['email'])) {
- 	exit('Please complete the registration form!');
- }
-
  if (empty($_POST['username']) || empty($_POST['password']) || empty($_POST['email'])) {
- 	exit('Please complete the registration form');
+ 	exit();
  }
 
  if ($stmt = $conn->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
@@ -64,24 +60,12 @@ require('conn database.php');
        echo 'Could not prepare statement!';
      }
  	}
+
  	$stmt->close();
  } else {
  	echo 'Could not prepare statement!';
  }
   $conn->close();
-
- if ($stmt = $conn->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
-   if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-     exit('Email is not valid!');
-   }
-   if (preg_match('/^[a-zA-Z0-9]+$/', $_POST['username']) == 0) {
-     exit('Username is not valid!');
- }
- if (strlen($_POST['password']) > 20 || strlen($_POST['password']) < 5) {
- 	exit('Password must be between 5 and 20 characters long!');
-}
-}
-
 ?>
 </body>
 </html>

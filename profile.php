@@ -30,7 +30,7 @@ $conn->close();
 <body>
 <method="post" action="http://localhost/php-opdrachten/website/profile.php"></method>
 <header>    
-    <a href="http://localhost/php-opdrachten/website/website.php">HOME<>
+    <a href="http://localhost/php-opdrachten/website/website.php">HOME
 </header>
 <body class="loggedin">
    <nav class="navtop"></nav>
