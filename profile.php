@@ -28,9 +28,9 @@ $conn->close();
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-<method="post" action="http://localhost/php-opdrachten/website/profile.php"></method>
+<method="post" action="profile.php"></method>
 <header>    
-    <a href="http://localhost/php-opdrachten/website/website.php">HOME
+    <a href="website.php">HOME
 </header>
 <body class="loggedin">
    <nav class="navtop"></nav>

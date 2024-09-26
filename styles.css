@@ -26,6 +26,7 @@ h2 {
     font-size: 15px;
 }
 
-table {
+table, td {
     text-align: center;
+    font-size: medium;
 }

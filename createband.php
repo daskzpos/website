@@ -12,9 +12,9 @@ require ('conn database.php');
     <title>invulformulier</title>
 </head>
 <a>
- <method="post" action="http://localhost/php-opdrachten/website/createband.php"></method>   
+ <method="post" action="createband.php"></method>   
  <header>
-  <a href="http://localhost/php-opdrachten/website/website.php">HOME</a>  
+  <a href="website.php">HOME</a>  
  </header>
  <body class="loggedin">
 		<nav class="navtop">

@@ -12,11 +12,11 @@ require('conn database.php');
     <title>invulformulier</title>
 </head>
 <body>
-<method="post" action="http://localhost/php-opdrachten/website/website.php"></method>
+<method="post" action="website.php"></method>
 <header>    
-    <a href="http://localhost/php-opdrachten/website/createband.php">PROGAMMA
-    <a href="http://localhost/php-opdrachten/website/register.php">REGISTER
-    <a href="http://localhost/php-opdrachten/website/login.php">LOGIN
+    <a href="createband.php">PROGAMMA
+    <a href="register.php">REGISTER
+    <a href="login.php">LOGIN
 </header>
 <br> <br>
 <h1>PROGAMMA</h1>

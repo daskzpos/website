@@ -12,9 +12,9 @@ require('conn database.php');
     <title>REGISTER</title>
 </head>
 <f>
-<method="POST" action="http://localhost/php-opdrachten/website/register.php"></method>
+<method="POST" action="register.php"></method>
 <header>
-   <a href="http://localhost/php-opdrachten/website/website.php">HOME</a>
+   <a href="website.php">HOME</a>
 </header>
 <br>
 <br>
@@ -35,7 +35,7 @@ require('conn database.php');
   <input name="register" type="submit" value="Register" />
 </form>
 <h2>
-  <p>Do you have an account already?<a href="http://localhost/php-opdrachten/website/login.php">LOGIN HERE</a></p> 
+  <p>Do you have an account already?<a href="login.php">LOGIN HERE</a></p> 
 </h2>
 
 <?php
