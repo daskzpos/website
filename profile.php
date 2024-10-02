@@ -30,15 +30,14 @@ $conn->close();
 <body>
 <method="post" action="profile.php"></method>
 <header>    
-    <a href="website.php">HOME
+    <a href="website.php">HOME</a>
+    <a href="createband.php">PROGAMMA</a>
 </header>
 <body class="loggedin">
    <nav class="navtop"></nav>
    <div class="content">
    </div>
-   <div>
-		<p>Your account details are below:</p>
-   </div>
+<h3>Your account details are below:</h3>
 	<table>
 		<tr>
 			<td>Username:</td>

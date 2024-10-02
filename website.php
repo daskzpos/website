@@ -14,12 +14,11 @@ require('conn database.php');
 <body>
 <method="post" action="website.php"></method>
 <header>    
-    <a href="createband.php">PROGAMMA
-    <a href="register.php">REGISTER
-    <a href="login.php">LOGIN
+    <a href="register.php">REGISTER</a>
+    <a href="login.php">LOGIN</a>     
 </header>
 <br> <br>
-<h1>PROGAMMA</h1>
+<h1>HOME</h1>
 <?php
 
 ?>

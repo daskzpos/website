@@ -9,7 +9,9 @@ body {
 }
 
 header {
-    text-align: right;
+    position: absolute;
+    right: 5%;
+    top:5%;
     color: rgb(0, 111, 0);
 }
 
@@ -27,6 +29,14 @@ h2 {
 }
 
 table, td {
-    text-align: center;
-    font-size: medium;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 30%;
+}
+
+h3 {
+    position: absolute;
+    left: 10.5%;
+    top: 20%;
 }

@@ -25,5 +25,15 @@ require ('conn database.php');
 //     echo 'Error creating database: ' . $conn->error;
 // }
 
-// $conn->close();
+// $sql = "CREATE TABLE Events (
+//     id INT PRIMARY KEY AUTO_INCREMENT,
+//     name VARCHAR(255) NOT NULL,
+//     description TEXT,
+//     date DATE,
+//     start_time TIME,
+//     end_time TIME
+// );
+
+// // $conn->close();
+
 ?>
