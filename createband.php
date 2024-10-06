@@ -21,8 +21,10 @@ require('conn database.php');
 		</div>
     <a> <method="post" action="createband.php"></method>   
  <header>
-  <a href="website.php">HOME</a>
-  <a href="profile.php">POFILE</a>  
+
+ <button onclick="window.location.href = 'progamma.php';">PROGAMMA</button>
+ <button onclick="window.location.href = 'profile.php';">PROFILE</button>
+ <button onclick="window.location.href = 'website.php';">LOG OUT</button>  
  </header>
 	</body>
 <form action="" method="post" id="createband">

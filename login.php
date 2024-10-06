@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>LOGIN</title>
 </head>
 <header>
-    <a href="website.php">HOME</a>
+    <button onclick="window.location.href = 'website.php';">HOME</button>
 </header>
 <body>
     <h1>Login</h1>
@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">Login</button>
     </form>
     <h2>
-        <p>Don't have an account? <a href="register.php">REGISTER HERE</a></p>
+        <p>Don't have an account? <button onclick="window.location.href = 'register.php';">REGISTER</button></p>
     </h2>
 
     <?php

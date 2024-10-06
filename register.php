@@ -14,7 +14,7 @@ require('conn database.php');
 <f>
 <method="POST" action="register.php"></method>
 <header>
-   <a href="website.php">HOME</a>
+<button onclick="window.location.href = 'website.php';">HOME</button>
 </header>
 <br>
 <br>
@@ -35,7 +35,7 @@ require('conn database.php');
   <input name="register" type="submit" value="Register" />
 </form>
 <h2>
-  <p>Do you have an account already?<a href="login.php">LOGIN HERE</a></p> 
+  <p>Do you have an account already?<button onclick="window.location.href = 'login.php';">LOGIN</button></p> 
 </h2>
 
 <?php

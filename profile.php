@@ -30,8 +30,8 @@ $conn->close();
 <body>
 <method="post" action="profile.php"></method>
 <header>    
-    <a href="website.php">HOME</a>
-    <a href="createband.php">PROGAMMA</a>
+    <button onclick="window.location.href = 'createband.php';">CREATE</button>
+    <button onclick="window.location.href = 'website.php';">LOG OUT</button>
 </header>
 <body class="loggedin">
    <nav class="navtop"></nav>

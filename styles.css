@@ -11,7 +11,7 @@ body {
 header {
     position: absolute;
     right: 5%;
-    top:5%;
+    top: 5%;
     color: rgb(0, 111, 0);
 }
 
@@ -38,5 +38,32 @@ table, td {
 h3 {
     position: absolute;
     left: 10.5%;
+    top: 20%;
+}
+
+#createband {                     
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+#createevent {
+    position: absolute;
+    right: 35%;
+    top: 20%;
+}
+
+button {
+    cursor:pointer;
+}
+
+table1 {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+table2 {
+    position: absolute;
+    left: 35%;
     top: 20%;
 }
