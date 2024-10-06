@@ -31,6 +31,7 @@ $conn->close();
 <method="post" action="profile.php"></method>
 <header>    
     <button onclick="window.location.href = 'createband.php';">CREATE</button>
+    <button onclick="window.location.href = 'progamma.php';">PROGAMMA</button>
     <button onclick="window.location.href = 'website.php';">LOG OUT</button>
 </header>
 <body class="loggedin">

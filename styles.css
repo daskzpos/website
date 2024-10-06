@@ -1,44 +1,52 @@
-* {
-    text-decoration: none;
-    background-color: #d6fcd4;
-}
-
 body {
-    background-color: #d6fcd4;
+    background-color: rgb(214, 252, 212);
     text-align: center;
 }
 
 header {
+    margin-bottom: 20px;
     position: absolute;
     right: 5%;
     top: 5%;
     color: rgb(0, 111, 0);
 }
 
-#genre {
-    width: 10%;
+h1, h2 {
+    color: rgb(0, 111, 0);
 }
 
-h1 {
-    font-weight: bold;
-    color: rgb(0, 111, 0); 
+.table-container {
+    display: flex;
+    justify-content: center;
 }
 
-h2 {
-    font-size: 15px;
+#tbands {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 2% auto;
+    background-color: rgb(214, 252, 212);;
+    border-style: solid;
+    border-color: rgb(0, 111, 0);
 }
 
-table, td {
-    margin-top: 10%;
-    margin-left: 10%;
-    margin-right: auto;
-    width: 30%;
+#tevents {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 2%;
+    background-color: rgb(214, 252, 212);;
+    border-style: solid;
+    border-color: rgb(0, 111, 0);
 }
 
-h3 {
-    position: absolute;
-    left: 10.5%;
-    top: 20%;
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: rgb(0, 123, 0);
+    color: rgb(255, 255, 255);
 }
 
 #createband {                     
@@ -46,6 +54,7 @@ h3 {
     left: 35%;
     top: 20%;
 }
+
 #createevent {
     position: absolute;
     right: 35%;
@@ -56,14 +65,3 @@ button {
     cursor:pointer;
 }
 
-table1 {
-    position: absolute;
-    left: 35%;
-    top: 20%;
-}
-
-table2 {
-    position: absolute;
-    left: 35%;
-    top: 20%;
-}
