@@ -19,11 +19,7 @@ require ('conn database.php');
 // email varchar(30) not null
 // )";
 
-// if($conn->query($sql) === true) {
-//     echo "Table created successfully";
-// }else{
-//     echo 'Error creating database: ' . $conn->error;
-// }
+
 
 // $sql = "CREATE TABLE Events (
 //     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -36,4 +32,17 @@ require ('conn database.php');
 
 // // $conn->close();
 
+// $sql = "CREATE TABLE Events_Bands (
+//     event_id INT(6),
+//     band_id INT(6),
+//     PRIMARY KEY (event_id, band_id),
+//     FOREIGN KEY (event_id) REFERENCES Events(event_id),
+//     FOREIGN KEY (band_id) REFERENCES Bands(band_id)
+// )";
+
+//  if($conn->query($sql) === true) {
+//     echo "Table created successfully";
+// }else{
+//     echo 'Error creating database: ' . $conn->error;
+// }   
 ?>

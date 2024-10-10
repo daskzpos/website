@@ -21,14 +21,14 @@ while ($row = $eventsResult->fetch_assoc()) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Progamma</title>
+    <title>Progam</title>
 </head>
 <body>
 <header>    
     <button onclick="window.location.href = 'profile.php';">PROFILE</button>
     <button onclick="window.location.href = 'createband.php';">CREATE</button>     
 </header>
-<h1>PROGAMMA</h1>
+<h1>PROGAM</h1>
 
 <h2>Bands</h2>
 <div class="table-container">
@@ -75,5 +75,7 @@ while ($row = $eventsResult->fetch_assoc()) {
     </tbody>
 </table>
 </div>
+
+
 </body>
 </html>

@@ -31,7 +31,7 @@ $conn->close();
 <method="post" action="profile.php"></method>
 <header>    
     <button onclick="window.location.href = 'createband.php';">CREATE</button>
-    <button onclick="window.location.href = 'progamma.php';">PROGAMMA</button>
+    <button onclick="window.location.href = 'progamma.php';">PROGAM</button>
     <button onclick="window.location.href = 'website.php';">LOG OUT</button>
 </header>
 <body class="loggedin">
@@ -43,10 +43,6 @@ $conn->close();
 		<tr>
 			<td>Username:</td>
 			<td><?=htmlspecialchars($_SESSION['username'], ENT_QUOTES)?></td>
-		</tr>
-		<tr>
-			<td>Password:</td>
-			<td><?=htmlspecialchars($password, ENT_QUOTES)?></td>
 		</tr>
 		<tr>
 			<td>Email:</td>

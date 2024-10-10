@@ -22,7 +22,7 @@ require('conn database.php');
     <a> <method="post" action="createband.php"></method>   
  <header>
 
- <button onclick="window.location.href = 'progamma.php';">PROGAMMA</button>
+ <button onclick="window.location.href = 'progamma.php';">PROGAM</button>
  <button onclick="window.location.href = 'profile.php';">PROFILE</button>
  <button onclick="window.location.href = 'website.php';">LOG OUT</button>  
  </header>
