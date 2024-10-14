@@ -1,3 +1,8 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: rgb(214, 252, 212);
     text-align: center;
@@ -15,38 +20,14 @@ h1, h2 {
     color: rgb(0, 111, 0);
 }
 
-.table-container {
-    display: flex;
-    justify-content: center;
-}
-
-#tbands {
-    width: 50%;
-    border-collapse: collapse;
-    margin: 2% auto;
-    background-color: rgb(214, 252, 212);;
-    border-style: solid;
-    border-color: rgb(0, 111, 0);
-}
-
-#tevents {
-    width: 50%;
-    border-collapse: collapse;
-    margin: 2%;
-    background-color: rgb(214, 252, 212);;
-    border-style: solid;
-    border-color: rgb(0, 111, 0);
-}
-
 th, td {
-    padding: 12px;
+    padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(0, 111, 0);
 }
 
 th {
-    background-color: rgb(0, 123, 0);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 111, 0);
 }
 
 #createband {                     
@@ -64,4 +45,73 @@ th {
 button {
     cursor:pointer;
 }
+
+/*link*/
+
+#tbands {
+    position: absolute;
+    right: 17%;
+    top: 15%;
+}
+
+#tableband {
+    position: absolute;
+    right: 13%;
+    top: 25%;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 111, 0);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(214, 252, 212);;
+    border-style: solid;
+    border-color: rgb(0, 111, 0);
+}
+
+#tevents {
+    position: absolute;
+    right: 17%;
+    top: 50%;
+}
+
+#tableevents {
+    position: absolute;
+    right: 5%;
+    top: 60%;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 111, 0);
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(214, 252, 212);;
+    border-style: solid;
+    border-color: rgb(0, 111, 0);
+}
+
+#tassbe {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+#tableassbe {
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 111, 0);
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+
+#tableprogram {
+    position: center;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 111, 0);
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+}
+
 
