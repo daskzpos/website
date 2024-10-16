@@ -54,7 +54,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">Login</button>
     </form>
     <h2>
-        <p>Don't have an account? <button onclick="window.location.href = 'register.php';">REGISTER</button></p>
+        <!-- <p>Don't have an account? <button onclick="window.location.href = 'register.php';">REGISTER</button></p> -->
     </h2>
 
     <?php
