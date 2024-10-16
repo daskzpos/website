@@ -2,7 +2,7 @@ body {
     background-color: rgb(214, 252, 212);
     text-align: center;
     display: flex; 
-    flex-direction: column; /* Stacks header and main content vertically */
+    flex-direction: column;
 }
 
 header {
@@ -17,31 +17,30 @@ h1, h2 {
 }
 
 .flex-container, .table-container {
-    display: flex; /* Use Flexbox */
-    justify-content: space-evenly; /* Center the items */
-    align-items: flex-start; /* Align items at the top */
-    gap: 10px; /* Space between flex items */
-    padding: 0 20px; /* Add some padding for better spacing */
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: flex-start; 
+    gap: 10px; 
+    padding: 0 20px; 
 }
 
 #tprogram {
-    flex: 1; /* Take the largest space */
-    order: 0; /* Ensure the Program section is in the middle */
+    flex: 1; 
+    order: 0; 
     margin: 20px;
 }
 
 #bands-events {
-    flex: 1; /* Takes the available space */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    order: 1; /* Positioned to the right of Program */
+    order: 1;
     margin: 10px;
 }
 
-
 #tassbe {
-    flex: 1; /* Takes the available space */
-    order: 2; /* Ensure it is to the left (before Program) */
+    flex: 1;
+    order: 2; 
     margin: 10px;
     position: absolute;
     
@@ -59,7 +58,6 @@ th, td {
     border-bottom: 1px solid rgb(0, 111, 0);
 }
 
-/* Additional table styling */
 #tableband, #tableevents, #tableprogram {
     border-radius: 25px;
     border: 2px solid rgb(0, 111, 0);
@@ -71,7 +69,7 @@ th, td {
 
 
 #tableprogram {
-    max-height: 450px; /* Higher table for the program section */
+    max-height: 450px; 
 }
 
 #tableassbe {

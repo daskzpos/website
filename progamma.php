@@ -86,7 +86,6 @@ while ($row = $bandEventsResult->fetch_assoc()) {
     <p style="color:red;"><?php echo $errorMessage; ?></p>
 <?php endif; ?>
 
-<!-- Main Flex Container -->
 <div class="flex-container">
     <div id="tassbe">
         <h2>Add a band to an event here</h2>

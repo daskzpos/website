@@ -20,7 +20,6 @@ require('conn database.php');
 <h1>ADD BANDS/EVENTS</h1>
 
 <div class="content flex-container">
-        <!-- Create Band Form -->
         <form action="" method="post" id="createband">
             <p><strong>Voeg hier een band toe</strong></p>
             <input type="text" name="band" placeholder="Band Name">
@@ -38,7 +37,6 @@ require('conn database.php');
             <input type="submit" value="ADD">
         </form>
 
-        <!-- Create Event Form -->
         <form action="" method="post" id="createevent">
             <p><strong>Voeg hier een event toe</strong></p>
             <label for="eventname"><strong>Event Name:</strong></label>

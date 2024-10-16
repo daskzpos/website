@@ -9,7 +9,7 @@ while ($row = $bandsResult->fetch_assoc()) {
     $bands[] = $row;
 }
 
-// Fetch events from the database (including price)
+// Fetch events from the database 
 $eventsResult = $conn->query("SELECT name, description, date, start_time, end_time, id, price FROM Events");
 $events = [];
 while ($row = $eventsResult->fetch_assoc()) {
@@ -77,7 +77,6 @@ while ($row = $bandEventsResult->fetch_assoc()) {
 </header>
 <h1>HOME</h1>
 
-<!-- Display success or error messages -->
 <?php if (isset($successMessage)): ?>
     <p style="color:green;"><?php echo $successMessage; ?></p>
 <?php endif; ?>
